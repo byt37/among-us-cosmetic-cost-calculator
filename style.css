@@ -1,0 +1,349 @@
+body, html {
+  height: 100%;
+  overflow-y: hidden; /* disable vertical scroll for the whole page */
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  
+}
+
+#spaceBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #000; /* Fallback background */
+}
+
+#costBreakdown {
+  font-size: 1.4em;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;     /* horizontal layout */
+  flex-wrap: wrap;         /* wrap to next line if needed */
+  justify-content: center; /* center horizontally */
+  align-items: center;
+  gap: 16px;               /* space between each cost type */
+  margin-bottom: 10px;
+}
+
+
+h1 {
+  font-size: 1.7em;      /* ⬅️ increase this for bigger text */
+  font-weight: bold;
+}
+
+.hovered-cosmetic-name {
+  font-family: 'Amatic SC', cursive; /* or your chosen font */
+  font-size: 1.6em;
+  color: #00ffcc;
+  text-align: center;
+  margin-top: 10px;
+  min-height: 1.5em; /* keeps layout stable even when empty */
+  transition: color 0.2s, opacity 0.2s;
+  opacity: 1;
+}
+
+/* --- Layout --- */
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 20px;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview-container {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;        /* stack vertically */
+  align-items: center;           /* center horizontally */
+  justify-content: center;
+  gap: 8px;                      /* small gap between player and nameplate */
+  background: #44444499;
+  border: 1px solid #6b6b6bFF;
+  border-radius: 12px;
+  padding: 12px;
+  overflow: visible;
+}
+
+/* player preview area stays centered */
+.player-preview {
+  position: relative;
+  left: -5%;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* keep layers centered on top of player */
+.player-preview img,
+.cosmetic-layer {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  image-rendering: crisp-edges;
+  pointer-events: none;
+}
+
+/* nameplate image sizing — tweak to taste */
+.nameplate-container img {
+  width: 400px;
+  height: 300px;
+  height: auto;
+  image-rendering: crisp-edges;
+}
+
+.cosmetic-layer {
+  pointer-events: none;
+}
+
+/* --- Menu Buttons --- */
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.menu-buttons button {
+  background: #44444499;
+  border: 1px solid #6b6b6bFF;
+  color: white;
+  font-family: 'Amatic SC', cursive; /* or your chosen font */
+  font-size: 1.2em;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.menu-buttons button:hover {
+  background: #3a3a3a;
+}
+
+.menu-buttons button.active {
+  background: #415f5699;
+  border-color: #00ffcc;
+  color: #00ffcc;
+}
+
+/* --- Cosmetic Grid --- */
+.cosmetic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 72px);
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+  width: 500px;
+
+  /* new scroll behavior */
+  max-height: 63vh;     /* the grid can grow up to 70% of the viewport height */
+  overflow-y: auto;     /* enable vertical scrolling */
+  padding-right: 6px;   /* space for scrollbar */
+  scrollbar-width: thin;
+  scrollbar-color: #00ffcc #111;
+}
+
+.cosmetic-grid.nameplate-grid {
+  grid-template-columns: repeat(auto-fill, 210px);
+  gap: 10px;
+  justify-content: center;
+  max-height: 63vh;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #00ffcc #111;
+}
+
+
+.cosmetic-button {
+  width: 72px;
+  height: 72px;
+  border: 1px solid #6b6b6bFF;
+  border-radius: 8px;
+  background: #44444499;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.15s, background 0.2s;
+}
+
+.cosmetic-button img {
+  width: 100%;
+  height: auto;
+  image-rendering: crisp-edges;
+}
+
+.cosmetic-button:hover {
+  transform: scale(1.05);
+  background: #2a2a2a;
+}
+
+/* Nameplates — wider rectangle style */
+.cosmetic-button.nameplate {
+  width: 200px;
+  height: 55px;
+  border-radius: 6px;
+  justify-content: center;
+}
+
+.playertype-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.cosmetic-button.active {
+  background: #415f5699;
+  border-color: #00ffcc;
+  color: #00ffcc;
+}
+
+/* Hats behind player */
+.behind-player {
+  z-index: 0; /* below player */
+}
+
+#playerImage {
+  z-index: 1;
+}
+
+#equippedHat {
+  z-index: 2; /* above player but below visor */
+}
+
+#equippedSkin {
+  z-index: 3;
+}
+
+#defaultvisor {
+  z-index: 4;
+}
+
+#equippedVisor {
+  z-index: 5;
+}
+
+#equippedPet {
+  z-index: 5;
+}
+
+/* --- Cosmetic Grid for Colors --- */
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.color-button {
+  width: 60px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.2s;
+}
+
+.color-button.active {
+  border-color: #00ffcc;
+  transform: scale(1.05);
+}
+
+.color-button:hover {
+  transform: scale(1.05);
+  border-color: #00ffcc;
+}
+
+.total-cost-container {
+  background: #1b1b1b;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
+  width: 80%;
+  margin-bottom: 12px;
+}
+
+.total-cost-container h2 {
+  margin: 0 0 6px 0;
+  font-size: 1.2em;
+  color: #00ffcc;
+  text-align: center;
+}
+
+.cost-row {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  font-size: 0.8em;
+  background: #111;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+
+.cost-icon {
+  width: 22px;
+  height: 22px;
+  image-rendering: crisp-edges;
+}
+
+.cosmetic-button.unobtainable {
+  opacity: 1;
+  position: relative;
+}
+
+.unobtainable-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: orange;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 55%;
+}
+
+#searchInput {
+  background: #1a1a1a99;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 6px;
+  padding: 6px 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.2em;
+  outline: none;
+  transition: border 0.2s, background 0.2s;
+}
+
+#searchInput:focus {
+  border-color: #00ffcc;
+  background: #2a2a2a;
+}
