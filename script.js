@@ -382,6 +382,10 @@ if (cls === "hat") {
   } else {
     el.style.zIndex = baseZ[cls] ?? 4;
   }
+
+  if (cosmetic.class==="hat" && cosmetic.visorblocked === false) {
+    el.style.zIndex = 6
+  }
 }
 
 // --- Apply offsets ---
