@@ -3,19 +3,20 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Among Us Cosmetic Cost Generator</title>
+  <title>Among Us Cosmetic Cost Calculator</title>
+  <link rel="icon" href="icon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <canvas id="spaceBackground"></canvas>
+
   <div class="main-container">
     
-    <!-- LEFT PANEL: menu + cosmetic grid -->
+    <!-- LEFT PANEL -->
     <div class="left-panel">
-      <h1>Among Us Cosmetic Cost Generator</h1>
+      <h1>Among Us Cosmetic Cost Calculator</h1>
 
-      <!-- Menu buttons -->
       <div class="menu-buttons">
         <button data-class="colors" class="active">Colors</button>
         <button data-class="hat">Hats</button>
@@ -25,31 +26,23 @@
         <button data-class="nameplate">Nameplates</button>
       </div>
 
-      <!-- Search bar -->
       <div class="search-container">
         <input type="text" id="searchInput" placeholder="Search cosmetics..." />
       </div>
 
-      <!-- Cosmetic grid (centered below buttons) -->
       <div id="cosmeticGrid" class="cosmetic-grid"></div>
-
       <p id="hoveredCosmeticName" class="hovered-cosmetic-name"></p>
     </div>
 
-    <!-- RIGHT PANEL: player preview -->
+    <!-- RIGHT PANEL -->
     <div class="preview-container">
-      <!-- Total Cost -->
       <div id="totalCostContainer" class="total-cost-container">
         <h2>Total Cost</h2>
         <div id="costBreakdown"></div>
       </div>
 
       <div class="player-preview" id="playerPreview">
-        <!-- base player frame -->
-        
         <img id="playerImage" alt="Player" src="img/playerpreviews/red.png" />
-
-        <!-- layered cosmetics -->
         <img id="equippedHat" class="cosmetic-layer" alt="Equipped hat" src="img/truenone.png" />
         <img id="equippedSkin" class="cosmetic-layer" alt="Equipped skin" src="img/truenone.png" />        
         <img id="equippedVisor" class="cosmetic-layer" alt="Equipped visor" src="img/truenone.png" />
@@ -57,15 +50,22 @@
         <img id="equippedPet" class="cosmetic-layer" alt="Equipped pet" src="img/truenone.png" />
       </div>
 
-      <!-- Nameplate container -->
       <div class="nameplate-container" id="nameplateContainer">
         <img id="equippedNameplate" alt="Equipped nameplate" src="img/nameplate/nameplate_none.png" />
       </div>
     </div>
-
   </div>
 
-  <!-- Script -->
+  <!-- 📜 Footer Disclaimer -->
+  <footer class="footer">
+    <p>
+      This is a fan-made project and is not affiliated with, endorsed by, or sponsored by Innersloth LLC.<br>
+      All game content and images are © Innersloth LLC. Used under fair use for non-commercial fan purposes.<br>
+      Cosmetic information and references were sourced from the Among Us Wiki.
+    </p>
+    <a class="wikilink" href="https://among-us.fandom.com/wiki/Among_Us_Wiki" target="_blank" rel="noopener noreferrer">Among Us Wiki</a>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
