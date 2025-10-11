@@ -310,7 +310,7 @@ h1 {
 }
 
 .cosmetic-button.unobtainable {
-  opacity: 1;
+  opacity: .7;
   position: relative;
 }
 
