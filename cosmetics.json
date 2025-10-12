@@ -1,0 +1,870 @@
+{
+  "No Hat": {
+    "class": "hat",
+    "name": "None",
+    "img": "none",
+    "offset": [0, 0],
+    "playercolor": false,
+    "behindplayer": false
+  },
+
+  "No Skin": {
+    "class": "skin",
+    "name": "None",
+    "img": "none",
+    "offset": [0, 0]
+  },
+
+  "Default Visor": {
+    "class": "visor",
+    "name": "None",
+    "img": "defvisor.png",
+    "offset": [0, 0]
+  },
+
+    "Default Nameplate": {
+    "class": "nameplate",
+    "name": "None",
+    "img": "nameplate_none.png",
+    "offset": [0, 0]
+  },
+
+  "No Pet": {
+    "class": "pet",
+    "name": "None",
+    "img": "pet_none", 
+    "offset": [0, 0],
+    "animname": "none"
+  },
+
+  "hat_astronaut": {
+    "class": "hat",
+    "name": "Spacewalk",
+    "img": "hat_astronaut/hat_astronaut.png",
+    "offset": [10, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_headslug": {
+    "class": "hat",
+    "name": "Headslug",
+    "img": "hat_headslug/hat_brainslug.png",
+    "offset": [20, -115],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_bushhat": {
+    "class": "hat",
+    "name": "Done D",
+    "img": "hat_bushhat.png",
+    "offset": [15, -90],
+    "playercolor": false,
+    "behindplayer": true,
+    "beans": 0
+  },
+
+  "hat_chocolate": {
+    "class": "hat",
+    "name": "Chcolate Scoop",
+    "img": "hat_chocolate/hat_chocolate.png",
+    "offset": [15, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_doubletophat": {
+    "class": "hat",
+    "name": "Toppat Chief",
+    "img": "hat_doubletophat.png",
+    "offset": [-2, -116],
+    "playercolor": false,
+    "behindplayer": true,
+    "beans": 0
+  },
+
+  "hat_flowerpot": {
+    "class": "hat",
+    "name": "Planted",
+    "img": "hat_flowerpot.png",
+    "offset": [0, -130],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_goggles": {
+    "class": "hat",
+    "name": "Goggles Up",
+    "img": "hat_goggles/hat_goggles.png",
+    "offset": [25, -70],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_hardhat": {
+    "class": "hat",
+    "name": "OSHA Compliant",
+    "img": "hat_hardhat/hat_hardhat.png",
+    "offset": [25, -82],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": false,
+    "beans": 0
+  },
+
+  "hat_heart": {
+    "class": "hat",
+    "name": "I heart u",
+    "img": "hat_heart.png",
+    "offset": [20, -120],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_military": {
+    "class": "hat",
+    "name": "Militant",
+    "img": "hat_military.png",
+    "offset": [25, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": false,
+    "beans": 0
+  },
+
+  "hat_police": {
+    "class": "hat",
+    "name": "Policeman-Officer",
+    "img": "hat_police.png",
+    "offset": [25, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": false,
+    "beans": 0
+  },
+
+  "hat_paperhat": {
+    "class": "hat",
+    "name": "Folded",
+    "img": "hat_paperhat/hat_paperhat.png",
+    "offset": [20, -103],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_partyhat": {
+    "class": "hat",
+    "name": "P Hat",
+    "img": "hat_partyhat.png",
+    "offset": [5, -110],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0
+  },
+
+  "hat_NewYears2018": {
+    "class": "hat",
+    "name": "New Years 2019",
+    "img": "hat_NewYears2018.png",
+    "offset": [20, -123],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_NewYear2023": {
+    "class": "hat",
+    "name": "New Years 2023",
+    "img": "hat_NewYear2023.png",
+    "offset": [10, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_NewYear2024": {
+    "class": "hat",
+    "name": "New Years 2024",
+    "img": "hat_NewYear2024.png",
+    "offset": [10, -100],
+    "playercolor": false,
+    "behindplayer": true,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_2025nye": {
+    "class": "hat",
+    "name": "New Years 2025",
+    "img": "hat_2025nye.png",
+    "offset": [15, -120],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_pk01_BaseballCap": {
+    "class": "hat",
+    "name": "The Ol' Ball Game",
+    "img": "hat_pk01_BaseballCap.png",
+    "offset": [15, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_Crown": {
+    "class": "hat",
+    "name": "Crowned",
+    "img": "hat_pk02_Crown.png",
+    "offset": [0, -100],
+    "playercolor": false,
+    "behindplayer": true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_Eyebrows": {
+    "class": "hat",
+    "name": "Stickmin Brows",
+    "img": "hat_pk02_Eyebrows.png",
+    "offset": [30, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+
+  "hat_pk02_HaloHat": {
+    "class": "hat",
+    "name": "Innocence",
+    "img": "hat_pk02_HaloHat.png",
+    "offset": [20, -110],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_HeroCap": {
+    "class": "hat",
+    "name": "Woodland Warrior",
+    "img": "hat_pk02_HeroCap.png",
+    "offset": [10, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_PipCap": {
+    "class": "hat",
+    "name": "Tiny Jim",
+    "img": "hat_pk02_PipCap.png",
+    "offset": [20, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_PlungerHat": {
+    "class": "hat",
+    "name": "Clogged",
+    "img": "hat_plunger/hat_pk02_PlungerHat.png",
+    "offset": [15, -130],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_ScubaHat": {
+    "class": "hat",
+    "name": "Aquatic Apparatus",
+    "img": "hat_pk02_ScubaHat.png",
+    "offset": [35, -85],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_StickminHat": {
+    "class": "hat",
+    "name": "Stickmin Rider",
+    "img": "hat_pk02_StickminHat.png",
+    "offset": [45, -110],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_StrawHat": {
+    "class": "hat",
+    "name": "Serengetti Outta Here",
+    "img": "hat_pk02_StrawHat.png",
+    "offset": [25, -73],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_TenGallon": {
+    "class": "hat",
+    "name": "Ten Gallons",
+    "img": "hat_TenGallon/hat_pk02_TenGallon.png",
+    "offset": [10, -110],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_ThirdEyeHat": {
+    "class": "hat",
+    "name": "Third Eye",
+    "img": "hat_pk02_ThirdEyeHat.png",
+    "offset": [10, -110],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_ToiletPaperHat": {
+    "class": "hat",
+    "name": "The Last Wipe",
+    "img": "hat_pk02_ToiletPaperHat.png",
+    "offset": [5, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk02_Toppat": {
+    "class": "hat",
+    "name": "The New Chief",
+    "img": "hat_pk02_Toppat.png",
+    "offset": [15, -103],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk03_Fedora": {
+    "class": "hat",
+    "name": "Fedorable",
+    "img": "hat_pk03_Fedora.png",
+    "offset": [25, -85],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk03_Goggles": {
+    "class": "hat",
+    "name": "Safety Second",
+    "img": "hat_pk03_Goggles.png",
+    "offset": [25, -70],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk03_StrapHat": {
+    "class": "hat",
+    "name": "Gartner",
+    "img": "hat_pk03_StrapHat.png",
+    "offset": [20, -50],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Antenna": {
+    "class": "hat",
+    "name": "Poor Reception",
+    "img": "hat_Antenna/hat_pk04_Antenna.png",
+    "offset": [-10, -105],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Balloon": {
+    "class": "hat",
+    "name": "We All Float Here",
+    "img": "hat_pk04_Balloon",
+    "offset": [20, -135],
+    "playercolor": true,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Banana": {
+    "class": "hat",
+    "name": "Peeled",
+    "img": "hat_Banana/hat_pk04_Banana.png",
+    "offset": [20, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Bandana": {
+    "class": "hat",
+    "name": "Greh",
+    "img": "hat_Bandana/hat_pk04_Bandana.png",
+    "offset": [15, -30],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_beanie": {
+    "class": "hat",
+    "name": "Beanie",
+    "img": "hat_Beanie/hat_pk04_beanie.png",
+    "offset": [10, -80],
+    "playercolor": false,
+    "behindplayer": false
+  },
+
+  "hat_pk04_Bear": {
+    "class": "hat",
+    "name": "Unbearable",
+    "img": "hat_pk04_Bear.png",
+    "offset": [25, -80],
+    "playercolor": false,
+    "behindplayer": false
+  },
+
+  "hat_pk04_BirdNest": {
+    "class": "hat",
+    "name": "Two Eggs in a Nest",
+    "img": "hat_pk04_BirdNest.png",
+    "offset": [25, -90],
+    "playercolor": false,
+    "behindplayer": false
+  },
+
+  "hat_pk04_Chef": {
+    "class": "hat",
+    "name": "My Name Chef",
+    "img": "hat_Chef/hat_pk04_Chef.png",
+    "offset": [-15, -100],
+    "playercolor": false,
+    "behindplayer": true
+  },
+
+  "hat_pk04_DoRag": {
+    "class": "hat",
+    "name": "My Name Chef",
+    "img": "hat_DoRag/hat_pk04_DoRag.png",
+    "offset": [0, -55],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+  
+  "hat_pk04_Fez": {
+    "class": "hat",
+    "name": "Fez Up",
+    "img": "hat_pk04_Fez.png",
+    "offset": [-5, -85],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_GeneralHat": {
+    "class": "hat",
+    "name": "Generally Speaking",
+    "img": "hat_pk04_GeneralHat.png",
+    "offset": [25, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_captain": {
+    "class": "hat",
+    "name": "Cap-tain",
+    "img": "hat_captain.png",
+    "offset": [25, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_HunterCap": {
+    "class": "hat",
+    "name": "Nimrod",
+    "img": "hat_pk04_HunterCap.png",
+    "offset": [25, -108],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_JungleHat": {
+    "class": "hat",
+    "name": "Take Cover",
+    "img": "hat_Helmet/hat_pk04_JungleHat.png",
+    "offset": [25, -60],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Pompadour": {
+    "class": "hat",
+    "name": "Pompous Pompadour",
+    "img": "hat_pk04_Pompadour.png",
+    "offset": [25, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+  
+  "hat_Ramhorn": {
+    "class": "hat",
+    "name": "Rammed",
+    "img": "hat_Ramhorn/hat_pk04_RamHorns.png",
+    "offset": [15, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+  
+  "hat_pk04_Slippery": {
+    "class": "hat",
+    "name": "Splippery When Wet",
+    "img": "hat_mira_sign/hat_pk04_Slippery.png",
+    "offset": [30, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Snowman": {
+    "class": "hat",
+    "name": "Snowmate",
+    "img": "hat_pk04_Snowman.png",
+    "offset": [20, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_Vagabond": {
+    "class": "hat",
+    "name": "Mysterious Vagabond",
+    "img": "hat_pk04_Vagabond.png",
+    "offset": [20, -40],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_Cheese": {
+    "class": "hat",
+    "name": "Bein Cheesy",
+    "img": "hat_cheese/hat_pk05_Cheese.png",
+    "offset": [20, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_Cherry": {
+    "class": "hat",
+    "name": "Cherry on Top",
+    "img": "hat_Cherry/hat_pk05_Cherry.png",
+    "offset": [20, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_Egg": {
+    "class": "hat",
+    "name": "Eggscellent",
+    "img": "hat_Egg/hat_pk05_Egg.png",
+    "offset": [20, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_Fedora": {
+    "class": "hat",
+    "name": "Noire Evening",
+    "img": "hat_pk05_Fedora.png",
+    "offset": [25, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_Flamingo": {
+    "class": "hat",
+    "name": "Floaty Flamingo",
+    "img": "hat_pk05_Flamingo.png",
+    "offset": [25, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_FlowerPin": {
+    "class": "hat",
+    "name": "Daisy me Rollin'",
+    "img": "hat_pk05_FlowerPin.png",
+    "offset": [10, -70],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk05_Helmet": {
+    "class": "hat",
+    "name": "Knighted",
+    "img": "hat_pk05_Helmet.png",
+    "offset": [15, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+  
+  "hat_pk05_Plant": {
+    "class": "hat",
+    "name": "Young Sprout",
+    "img": "hat_pk05_Plant.png",
+    "offset": [15, -115],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_Ponytail": {
+    "class": "hat",
+    "name": "Blondie",
+    "img": "hat_Ponytail.png",
+    "offset": [10, -75],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_Rubberglove": {
+    "class": "hat",
+    "name": "You Glove to See It",
+    "img": "hat_Rubberglove.png",
+    "offset": [15, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_russian": {
+    "class": "hat",
+    "name": "Wall Ushanka",
+    "img": "hat_russian.png",
+    "offset": [20, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_stethescope": {
+    "class": "hat",
+    "name": "What is up, Doc?",
+    "img": "hat_Doc/hat_stethescope.png",
+    "offset": [20, -85],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_tophat": {
+    "class": "hat",
+    "name": "Toppat Grunt",
+    "img": "hat_tophat.png",
+    "offset": [10, -105],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_towelwizard": {
+    "class": "hat",
+    "name": "Freshly Showered",
+    "img": "hat_towelwizard.png",
+    "offset": [20, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_Unicorn": {
+    "class": "hat",
+    "name": "Magical 'Corn",
+    "img": "hat_Unicorn.png",
+    "offset": [10, -70],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_Viking": {
+    "class": "hat",
+    "name": "VI King",
+    "img": "hat_Viking.png",
+    "offset": [10, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_wallcap": {
+    "class": "hat",
+    "name": "The Wall Cap",
+    "img": "hat_wallcap.png",
+    "offset": [30, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_pk04_CCC": {
+    "class": "hat",
+    "name": "Chaos Contained",
+    "img": "hat_pk04_CCC.png",
+    "offset": [30, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_whitetophat": {
+    "class": "hat",
+    "name": "Toppat White Edition",
+    "img": "hat_whitetophat.png",
+    "offset": [10, -105],
+    "playercolor": false,
+    "behindplayer": true,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_Zipper": {
+    "class": "hat",
+    "name": "Crewmate Suit",
+    "img": "hat_Zipper.png",
+    "offset": [10, -110],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":true,
+    "beans": 0,
+    "obtainable": true
+  }
+}
