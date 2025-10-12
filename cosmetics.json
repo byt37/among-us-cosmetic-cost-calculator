@@ -37,6 +37,9 @@
     "animname": "none"
   },
 
+
+
+
   "hat_astronaut": {
     "class": "hat",
     "name": "Spacewalk",
@@ -866,5 +869,95 @@
     "visorblocked":true,
     "beans": 0,
     "obtainable": true
+  },
+
+
+
+
+  "skin_Astro": {
+    "class": "skin",
+    "name": "Astronaught",
+    "img": "skin_Astro.png",
+    "offset": [1, 0]
+  },
+
+  "skin_Capt": {
+    "class": "skin",
+    "name": "Pilot's License",
+    "img": "skin_Capt.png",
+    "offset": [0, -2]
+  },
+  
+  "skin_Mech": {
+    "class": "skin",
+    "name": "I'll Fix It",
+    "img": "skin_Mech.png",
+    "offset": [1, 0]
+  },
+
+  "skin_Military": {
+    "class": "skin",
+    "name": "Officer Outfit",
+    "img": "skin_Military.png",
+    "offset": [-1, -3]
+  },
+
+  "skin_Police": {
+    "class": "skin",
+    "name": "Policeman Officer",
+    "img": "skin_Police.png",
+    "offset": [1, -3]
+  },
+
+  "skin_Science": {
+    "class": "skin",
+    "name": "Scientific Theory",
+    "img": "skin_Science.png",
+    "offset": [1, -1]
+  },
+
+  "skin_SuitB": {
+    "class": "skin",
+    "name": "Suited Up",
+    "img": "skin_SuitB.png",
+    "offset": [1, -3]
+  },
+
+  "skin_SuitW": {
+    "class": "skin",
+    "name": "Flashy",
+    "img": "skin_SuitW.png",
+    "offset": [1, -3]
+  },
+
+  "skin_Wall": {
+    "class": "skin",
+    "name": "Guarding the Wall",
+    "img": "skin_Wall.png",
+    "offset": [1, -3]
+  },
+
+
+  
+
+  "visor_pk01_PaperMaskVisor": {
+    "class": "visor",
+    "name": "Safe not Sorry",
+    "img": "visor_pk01_PaperMaskVisor.png",
+    "offset": [33, -30]
+  },
+
+  "visor_pk01_AngeryVisor": {
+    "class": "visor",
+    "name": "A N G E R Y",
+    "img": "visor_pk01_AngeryVisor.png",
+    "offset": [45, -60]
+  },
+
+  "visor_pk01_DumStickerVisor": {
+    "class": "visor",
+    "name": "Note 2 Self",
+    "img": "visor_dumSticker/visor_pk01_DumStickerVisor.png",
+    "offset": [58, -33]
   }
 }
