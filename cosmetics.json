@@ -40,6 +40,10 @@
 
 
 
+
+
+
+
   "hat_astronaut": {
     "class": "hat",
     "name": "Spacewalk",
@@ -874,6 +878,10 @@
 
 
 
+
+
+
+
   "skin_Astro": {
     "class": "skin",
     "name": "Astronaught",
@@ -938,6 +946,10 @@
   },
 
 
+
+
+
+
   
 
   "visor_pk01_PaperMaskVisor": {
@@ -959,5 +971,161 @@
     "name": "Note 2 Self",
     "img": "visor_dumSticker/visor_pk01_DumStickerVisor.png",
     "offset": [58, -33]
+  },
+
+
+
+
+
+
+
+
+  "hat_pkHW01_CatEyes": {
+    "class": "hat",
+    "name": "Batbean",
+    "img": "hat_cat/hat_pkHW01_CatEyes.png",
+    "offset": [15, -80],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "mustobtain":["hat_pkHW01_BatWings","hat_pkHW01_Horns",""],
+    "obtainable":false
+  },
+
+  "hat_pkHW01_BatWings": {
+    "class": "hat",
+    "name": "Batty",
+    "img": "hat_bat/hat_pkHW01_BatWings.png",
+    "offset": [25, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Horns": {
+    "class": "hat",
+    "name": "Imp-ressive",
+    "img": "hat_devilhorns/hat_pkHW01_Horns.png",
+    "offset": [15, -110],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Mohawk": {
+    "class": "hat",
+    "name": "MoRawk",
+    "img": "hat_mohawk/hat_pkHW01_Mohawk.png",
+    "offset": [10, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Pumpkin": {
+    "class": "hat",
+    "name": "Punkin",
+    "img": "hat_pkHW01_Pumpkin.png",
+    "offset": [10, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_ScaryBag": {
+    "class": "hat",
+    "name": "Mask, the Monster Mask",
+    "img": "hat_papermask/hat_pkHW01_ScaryBag.png",
+    "offset": [15, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Witch": {
+    "class": "hat",
+    "name": "Witch One",
+    "img": "hat_witch/hat_pkHW01_Witch.png",
+    "offset": [15, -100],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Wolf": {
+    "class": "hat",
+    "name": "Witch One",
+    "img": "hat_wolf/hat_pkHW01_Wolf.png",
+    "offset": [20, -85],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Pirate": {
+    "class": "hat",
+    "name": "Walk the Plank",
+    "img": "hat_pkHW01_Pirate.png",
+    "offset": [15, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_Machete": {
+    "class": "hat",
+    "name": "Chop-chop",
+    "img": "hat_pkHW01_Machete.png",
+    "offset": [15, -110],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "hat_pkHW01_PlagueHat": {
+    "class": "hat",
+    "name": "Plagued",
+    "img": "hat_pkHW01_PlagueHat.png",
+    "offset": [10, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 2000,
+    "obtainable":false,
+    "mustobtain":["visor_pk01_FredVisor","visor_pk01_PlagueVisor"]
+  },
+
+  "visor_pk01_PlagueVisor": {
+    "class": "visor",
+    "name": "Plagued",
+    "img": "visor_pk01_PlagueVisor.png",
+    "offset": [58, -38]
+  },
+
+  "visor_pk01_FredVisor": {
+    "class": "visor",
+    "name": "Great Goalie",
+    "img": "visor_pk01_FredVisor.png",
+    "offset": [30, -38]
   }
 }
