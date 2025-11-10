@@ -1,4 +1,12 @@
 {
+
+
+
+
+  "​​​​​‌​‍‌":"----------------------",
+  "​​​​​‍​​‌":" No Cosmetics         ",
+  "​​​​​⁠​⁠‌":"----------------------",
+
   "No Hat": {
     "class": "hat",
     "name": "None",
@@ -40,10 +48,10 @@
 
 
 
-
-
-
-
+  "​​​‌‍‌​‍‌":"----------------------",
+  "​​​‌‍‍​​‌":" Default Hats         ",
+  "​​​‌‍⁠​⁠‌":"----------------------",
+  
   "hat_astronaut": {
     "class": "hat",
     "name": "Spacewalk",
@@ -175,50 +183,6 @@
     "playercolor": false,
     "behindplayer": false,
     "beans": 0
-  },
-
-  "hat_NewYears2018": {
-    "class": "hat",
-    "name": "New Years 2019",
-    "img": "hat_NewYears2018.png",
-    "offset": [20, -123],
-    "playercolor": false,
-    "behindplayer": false,
-    "beans": 0,
-    "obtainable": false
-  },
-
-  "hat_NewYear2023": {
-    "class": "hat",
-    "name": "New Years 2023",
-    "img": "hat_NewYear2023.png",
-    "offset": [10, -95],
-    "playercolor": false,
-    "behindplayer": false,
-    "beans": 0,
-    "obtainable": false
-  },
-
-  "hat_NewYear2024": {
-    "class": "hat",
-    "name": "New Years 2024",
-    "img": "hat_NewYear2024.png",
-    "offset": [10, -100],
-    "playercolor": false,
-    "behindplayer": true,
-    "beans": 0,
-    "obtainable": false
-  },
-
-  "hat_2025nye": {
-    "class": "hat",
-    "name": "New Years 2025",
-    "img": "hat_2025nye.png",
-    "offset": [15, -120],
-    "playercolor": false,
-    "behindplayer": false,
-    "beans": 0,
-    "obtainable": false
   },
 
   "hat_pk01_BaseballCap": {
@@ -878,10 +842,10 @@
 
 
 
-
-
-
-
+  "​​​‌⁠​​‍‌":"----------------------",
+  "​​​‌⁠‌​​‌":" Default Skins        ",
+  "​​​‌⁠‍​⁠‌":"----------------------",
+  
   "skin_Astro": {
     "class": "skin",
     "name": "Astronaught",
@@ -948,9 +912,9 @@
 
 
 
-
-
-  
+  "​​​‌⁠⁠​‍‌":"--------------------------",
+  "​​​‍​​​​‌":" Default Visor Cosmetics  ",
+  "​​​‍​‌​⁠‌":"--------------------------",
 
   "visor_pk01_PaperMaskVisor": {
     "class": "visor",
@@ -976,9 +940,9 @@
 
 
 
-
-
-
+  "​​​​⁠‌​‍‌":"----------------------",
+  "​​​​⁠‍​​‌":" Halloween Cosmetics  ",
+  "​​​​⁠⁠​⁠‌":"----------------------",
 
   "hat_pkHW01_CatEyes": {
     "class": "hat",
@@ -1119,13 +1083,412 @@
     "class": "visor",
     "name": "Plagued",
     "img": "visor_pk01_PlagueVisor.png",
-    "offset": [58, -38]
+    "offset": [58, -38],
+    "obtainable":false,
+    "mustobtain":["hat_pkHW01_CatEyes","hat_pkHW01_BatWings","hat_pkHW01_Horns","hat_pkHW01_Mohawk","hat_pkHW01_Pumpkin",
+          "hat_pkHW01_ScaryBag","hat_pkHW01_Witch","hat_pkHW01_Wolf","hat_pkHW01_Pirate","hat_pkHW01_Machete","hat_pkHW01_PlagueHat"]
   },
 
   "visor_pk01_FredVisor": {
     "class": "visor",
     "name": "Great Goalie",
     "img": "visor_pk01_FredVisor.png",
-    "offset": [30, -38]
+    "offset": [30, -38],
+    "obtainable":false,
+    "mustobtain":["hat_pkHW01_CatEyes","hat_pkHW01_BatWings","hat_pkHW01_Horns","hat_pkHW01_Mohawk","hat_pkHW01_Pumpkin",
+          "hat_pkHW01_ScaryBag","hat_pkHW01_Witch","hat_pkHW01_Wolf","hat_pkHW01_Pirate","hat_pkHW01_Machete","hat_pkHW01_PlagueHat"]
+  },
+
+
+
+
+  "​​​‍​‍​‍‌":"----------------------",
+  "​​​‍​⁠​​‌":" Christmas Cosmetics  ",
+  "​​​‍‌​​⁠‌":"----------------------",
+  
+  "hat_pk06_Snowman": {
+    "class": "hat",
+    "name": "Frosted",
+    "img": "hat_w21_snowman/hat_pk06_Snowman.png",
+    "offset": [10, -120],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+  },
+
+  "hat_pk06_Reindeer": {
+    "class": "hat",
+    "name": "Oh Dear, Rain",
+    "img": "hat_pk06_Reindeer.png",
+    "offset": [10, -122],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+
+  },
+
+  "hat_pk06_Lights": {
+    "class": "hat",
+    "name": "Lit Up",
+    "img": "hat_w21_lights/hat_pk06_Lights.png",
+    "offset": [25, -90],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+
+  },
+
+  "hat_pk06_Santa": {
+    "class": "hat",
+    "name": "Presents Dude",
+    "img": "hat_w21_santa/hat_pk06_Santa.png",
+    "offset": [5, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+
+  },
+
+  "hat_pk06_tree": {
+    "class": "hat",
+    "name": "Evergreen",
+    "img": "hat_pk06_tree.png",
+    "offset": [20, -123],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+  },
+
+  "hat_pk06_Present": {
+    "class": "hat",
+    "name": "Gift Wrapped",
+    "img": "hat_w21_present/hat_pk06_Present.png",
+    "offset": [20, -120],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+  },
+
+  "hat_pk06_Candycanes": {
+    "class": "hat",
+    "name": "Can'tdy Cane",
+    "img": "hat_w21_candycane/hat_pk06_Candycanes.png",
+    "offset": [25, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+  },
+
+  "hat_pk06_ElfHat": {
+    "class": "hat",
+    "name": "Toy Dude",
+    "img": "hat_w21_elf/hat_pk06_ElfHat.png",
+    "offset": [0, -105],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable":false
+  },
+
+
+
+
+  "​​​‍‌‌​‍‌":"----------------------",
+  "​​​‍‌‍​​‌":" New Year Hats        ",
+  "​​​‍‌⁠​⁠‌":"----------------------",
+
+  "hat_NewYears2018": {
+    "class": "hat",
+    "name": "New Years 2019",
+    "img": "hat_NewYears2018.png",
+    "offset": [20, -123],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_NewYear2023": {
+    "class": "hat",
+    "name": "New Years 2023",
+    "img": "hat_NewYear2023.png",
+    "offset": [10, -95],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_NewYear2024": {
+    "class": "hat",
+    "name": "New Years 2024",
+    "img": "hat_NewYear2024.png",
+    "offset": [10, -100],
+    "playercolor": false,
+    "behindplayer": true,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_2025nye": {
+    "class": "hat",
+    "name": "New Years 2025",
+    "img": "hat_2025nye.png",
+    "offset": [15, -120],
+    "playercolor": false,
+    "behindplayer": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+
+
+
+  "​​​‍⁠‍​‍‌":"-----------------------------------",
+  "​​​‍⁠⁠​​‌":" Other Free/Anniversary Cosmetics  ",
+  "​​​⁠​​​⁠‌":"-----------------------------------",
+  
+  "hat_starBalloon": {
+    "class": "hat",
+    "name": "Five out of Five",
+    "img": "hat_starBalloon",
+    "offset": [20, -131],
+    "playercolor": true,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_topHatMinimate": {
+    "class": "hat",
+    "name": "Mini Dappermate",
+    "img": "hat_topHatMinimate",
+    "offset": [20, -131],
+    "playercolor": true,
+    "behindplayer": false,
+    "visorblocked":false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_birthdaycake": {
+    "class": "hat",
+    "name": "Caked Up",
+    "img": "hat_birthdaycake.png",
+    "offset": [15, -118],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "img/hats/hat_halospartan": {
+    "class": "hat",
+    "name": "Spartan Helmet",
+    "img": "hat_halospartan",
+    "offset": [30, -35],
+    "playercolor": true,
+    "behindplayer": false,
+    "visorblocked": false,
+    "versionlimited":"xbox",
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "hat_screamingghostface": {
+    "class": "hat",
+    "name": "Scream Mask",
+    "img": "hat_screamingghostface",
+    "offset": [30, -35],
+    "playercolor": true,
+    "behindplayer": false,
+    "visorblocked": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_Edgeworth": {
+    "class": "hat",
+    "name": "Miles Edgeworth's Coif",
+    "img": "hat_Edgeworth.png",
+    "offset": [20, -60],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": true,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_paimon": {
+    "class": "hat",
+    "name": "Paimon Wig",
+    "img": "hat_paimon.png",
+    "offset": [35, -76],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": false,
+    "versionlimited": false,
+    "beans": 0,
+    "obtainable": false
+  },
+
+  "hat_ratchet": {
+    "class": "hat",
+    "name": "Ratchet's Cap",
+    "img": "hat_ratchet.png",
+    "offset": [20, -70],
+    "playercolor": false,
+    "behindplayer": false,
+    "visorblocked": true,
+    "versionlimited":"play",
+    "beans": 0,
+    "obtainable": true
+  },
+
+  "skin_halospartan": {
+    "class": "skin",
+    "name": "Spartan Armor",
+    "img": "skin_halospartan",
+    "obtainable": true,
+    "versionlimited": "xbox",
+    "playercolor": true,
+    "visorblocked":false,
+    "offset": [2, -4]
+  },
+
+  "skin_screamingghostface": {
+    "class": "skin",
+    "name": "Scream Robes",
+    "img": "skin_screamingghostface",
+    "obtainable": false,
+    "versionlimited": false,
+    "playercolor": true,
+    "visorblocked":false,
+    "offset": [5, -4]
+  },
+
+  "skin_Edgeworth": {
+    "class": "skin",
+    "name": "Miles Edgeworth's Suit",
+    "img": "skin_Edgeworth.png",
+    "obtainable": false,
+    "versionlimited": false,
+    "offset": [1, -4]
+  },
+
+  "skin_Paimon": {
+    "class": "skin",
+    "name": "Paimon Costume",
+    "img": "skin_Paimon.png",
+    "visorblocked":false,
+    "obtainable": false,
+    "versionlimited": false,
+    "offset": [12, -6]
+  },
+
+  "skin_ratchet": {
+    "class": "skin",
+    "name": "Ratchet's Jumpsuit",
+    "img": "skin_ratchet.png",
+    "visorblocked":false,
+    "obtainable": true,
+    "versionlimited": true,
+    "offset": [0, 0]
+  },
+
+  "skin_benoit": {
+    "class": "skin",
+    "name": "Benoit Blanc",
+    "img": "skin_benoit.png",
+    "obtainable": false,
+    "versionlimited": false,
+    "offset": [1, -2]
+  },
+
+  "Visor_slothmask": {
+    "class": "visor",
+    "name": "Double Digit Sloth",
+    "img": "Visor_slothmask.png",
+    "offset": [30, -30],
+    "obtainable": false
+  },
+
+  "visor_geoff": {
+    "class": "visor",
+    "name": "My Name Geoff",
+    "img": "visor_geoff.png",
+    "offset": [30, -30],
+    "obtainable": false
+  },
+
+  "visor_vr_Vr-Black": {
+    "class": "visor",
+    "name": "Virtual Reality (Black)",
+    "img": "visor_vr/visor_vr_Vr-Black.png",
+    "offset": [30, -40],
+    "obtainable": false
+  },
+
+  "visor_vr_Vr-White": {
+    "class": "visor",
+    "name": "Virtual Reality (White)",
+    "img": "visor_vr/visor_vr_Vr-White.png",
+    "offset": [30, -40],
+    "obtainable": false
+  },
+
+
+
+
+  "​​​⁠​‌​‍‌":"----------------------",
+  "​​​⁠​‍​​‌":" Free Pets            ",
+  "​​​⁠​⁠​⁠‌":"----------------------",
+
+  "pet_clank": {
+    "class": "pet",
+    "name": "Clank",
+    "img": "pet_clank.png", 
+    "offset": [0,-10],
+    "versionlimited": "play"
+  },
+
+  "pet_GuiltySpark": {
+    "class": "pet",
+    "name": "Guilty Spark",
+    "img": "pet_GuiltySpark.png", 
+    "offset": [0,-10],
+    "versionlimited": "xbox"
+  },
+
+  "pet_test": {
+    "class": "pet",
+    "name": "Glitch",
+    "img": "pet_test.png", 
+    "offset": [0,0],
+    "obtainable": false
+  },
+  
+
+
+  
+  "​​​⁠‌​​‍‌":"----------------------",
+  "​​​⁠‌‌​​‌":" Free Nameplates      ",
+  "​​​⁠‌‍​⁠‌":"----------------------",
+
+  "nameplate_paimon": {
+    "class": "nameplate",
+    "name": "Crest of the Best Travel Companion",
+    "img": "nameplate_paimon.png",
+    "offset": [0, 0],
+    "obtainable": false
   }
 }
