@@ -40,6 +40,7 @@ h1 {
   font-size: 1.6em;
   color: #00ffcc;
   text-align: center;
+  line-height: 0.8em;
   min-height: 1.5em; /* keeps layout stable even when empty */
   transition: color 0.2s, opacity 0.2s;
   opacity: 1;
@@ -152,7 +153,7 @@ h1 {
   width: 500px;
 
   /* new scroll behavior */
-  max-height: 63vh;     /* the grid can grow up to 70% of the viewport height */
+  max-height: 62vh;     /* the grid can grow up to 70% of the viewport height */
   overflow-y: auto;     /* enable vertical scrolling */
   padding-right: 6px;   /* space for scrollbar */
   scrollbar-width: thin;
@@ -163,7 +164,7 @@ h1 {
   grid-template-columns: repeat(auto-fill, 210px);
   gap: 10px;
   justify-content: center;
-  max-height: 63vh;
+  max-height: 62vh;
   overflow-y: auto;
   padding-right: 6px;
   scrollbar-width: thin;
@@ -192,8 +193,8 @@ h1 {
 }
 
 .cosmetic-button:hover {
-  transform: scale(1.05);
-  background: #2a2a2a;
+
+  background: #4a4a4a;
 }
 
 /* Nameplates — wider rectangle style */
@@ -244,7 +245,7 @@ h1 {
 }
 
 #equippedPet {
-  z-index: 5;
+  z-index: 9;
 }
 
 /* --- Cosmetic Grid for Colors --- */
@@ -314,6 +315,10 @@ h1 {
   position: relative;
 }
 
+.cosmetic-button.versionlimited {
+  position: relative;
+}
+
 .unobtainable-dot {
   position: absolute;
   top: 6px;
@@ -321,6 +326,17 @@ h1 {
   width: 10px;
   height: 10px;
   background-color: orange;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.versionlimited-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 10px;
+  height: 10px;
+  background-color: pink;
   border-radius: 50%;
   pointer-events: none;
 }
