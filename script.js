@@ -80,6 +80,7 @@ async function loadCosmetics() {
         pods: data.pods || 0,
         podtype: data.podtype || "",
         obtainable: data.obtainable !== undefined ? data.obtainable : true,
+        versionlimited: data.versionlimited !== undefined ? data.versionlimited : "none",
         mustobtain: Array.isArray(data.mustobtain)
           ? data.mustobtain.map(String)
           : data.mustobtain
@@ -208,12 +209,21 @@ function populateCosmeticGrid(cosmeticClass) {
       const costText = costParts.length > 0 ? ` - ${costParts.join(" and ")}` : "";
 
       let labelHTML = `<span style="color:${
-        cosmetic.obtainable === false ? "orange" : "#00ffcc"
+        cosmetic.obtainable === false ? "orange" : cosmetic.versionlimited === "xbox" ? "pink" : cosmetic.versionlimited === "play" ? "pink" : "#00ffccff"
       }">${name}${costText}</span>`;
 
       if (cosmetic.obtainable === false) {
         labelHTML += `<br><span style="color:orange; font-size:0.9em;">⚠ Warning! This item is no longer obtainable</span>`;
       }
+
+      if (cosmetic.versionlimited === "xbox") {
+        labelHTML += `<br><span style="color:pink; font-size:0.9em;">⚠ Warning! This item is only available in the Xbox version of Among Us</span>`;
+      }
+
+      if (cosmetic.versionlimited === "play") {
+        labelHTML += `<br><span style="color:pink; font-size:0.9em;">⚠ Warning! This item is only available in the PlayStation version of Among Us</span>`;
+      }
+
 
       hoverLabel.innerHTML = labelHTML;
     });
@@ -227,6 +237,20 @@ function populateCosmeticGrid(cosmeticClass) {
       btn.classList.add("unobtainable");
       const dot = document.createElement("div");
       dot.classList.add("unobtainable-dot");
+      btn.appendChild(dot);
+    }
+
+    if (cosmetic.versionlimited === "xbox") {
+      btn.classList.add("versionlimited");
+      const dot = document.createElement("div");
+      dot.classList.add("versionlimited-dot");
+      btn.appendChild(dot);
+    }
+
+    if (cosmetic.versionlimited === "play") {
+      btn.classList.add("versionlimited");
+      const dot = document.createElement("div");
+      dot.classList.add("versionlimited-dot");
       btn.appendChild(dot);
     }
 
@@ -356,24 +380,12 @@ function equipCosmetic(cosmetic) {
     el.classList.remove("behind-player");
   }
 
-  // --- Handle visorblocked (for hats only) ---
-if (cls === "hat") {
-  const visorLayer = document.getElementById("defaultvisor");
-  if (visorLayer) {
-    if (cosmetic.visorblocked === false) {
-      visorLayer.src = "img/truenone.png";
-    } else {
-      visorLayer.src = "img/visors/defvisor.png";
-    }
-  }
-}
-
   // --- Adjust z-index dynamically ---
   const baseZ = {
     skin: 3,
     hat: 2,
     visor: 5,
-    pet: 5,
+    pet: 9,
     nameplate: 6,
   };
 
@@ -384,6 +396,10 @@ if (cls === "hat") {
   }
 
   if (cosmetic.class==="hat" && cosmetic.visorblocked === false) {
+    el.style.zIndex = 7
+  }
+
+  if (cosmetic.class==="skin" && cosmetic.visorblocked === false) {
     el.style.zIndex = 6
   }
 }
@@ -594,8 +610,8 @@ const ctx = canvas.getContext("2d");
 let stars = [];
 let width, height;
 
-const starCount = 150;     // total number of stars
-const minSize = 1;         // smallest star radius (px)
+const starCount = 100;     // total number of stars
+const minSize = 1.5;         // smallest star radius (px)
 const maxSize = 4;         // largest star radius (px)
 const minSpeed = 0.1;      // slowest horizontal speed (px per frame)
 const maxSpeed = 0.6;      // fastest horizontal speed (px per frame)
