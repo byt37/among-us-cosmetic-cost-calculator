@@ -85,7 +85,7 @@
   "hat_chocolate": {
     "class": "hat",
     "name": "Chcolate Scoop",
-    "img": "hat_chocolate/hat_chocolate.png",
+    "img": "hat_Chocolate/hat_Chocolate.png",
     "offset": [15, -100],
     "playercolor": false,
     "behindplayer": false,
@@ -1492,3 +1492,4 @@
     "obtainable": false
   }
 }
+
